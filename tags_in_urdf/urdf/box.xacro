@@ -54,7 +54,7 @@
   <joint name="tag_joint" type="fixed">
     <parent link="box"/>
     <child link="artag4"/>
-    <origin rpy="0 0 0" xyz="0 0 0.2"/>
+    <origin rpy="0 0 0" xyz="0 0 0.025"/>
     <!-- <origin rpy="0 0 -1.571" xyz="0 0 0"/> -->
   </joint>
 

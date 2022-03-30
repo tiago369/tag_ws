@@ -12,6 +12,6 @@
     
       <!-- push robot_description to factory and spawn robot in gazebo -->
     <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-        args="-file $(find tags_in_urdf)/urdf/box.xacro -urdf -z 1 -model box"/>
+        args="-file $(find tags_in_urdf)/urdf/tag.xacro -urdf -z 1 -model box"/>
     
 </launch>

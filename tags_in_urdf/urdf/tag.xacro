@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<robot name="box" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <link name="artag4">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://tags_in_urdf/meshes/tag.dae"/>
+      </geometry>
+    </visual> 
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://tags_in_urdf/meshes/tag.dae"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="0.01052000"/>
+      <inertia ixx="8.76754333e-6" ixy="0" ixz="0" iyx="0" iyy="8.76754333e-6" iyz="0" izx="0" izy="0" izz="1.75333333e-5"/>
+    </inertial>
+  </link>
+
+
+</robot>
